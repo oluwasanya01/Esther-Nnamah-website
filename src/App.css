@@ -480,11 +480,19 @@ h6 {
   color: #0066cc;
   border: none;
   font-weight: 600;
-  font-size: 2rem;
+  font-size: 1.2rem;
   cursor: pointer;
   transition: all 0.3s ease;
   z-index: 102;
   padding: 0;
+  opacity: 1;
+  visibility: visible;
+}
+
+.back-btn.hidden {
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
 }
 
 .back-btn:hover {
@@ -900,6 +908,9 @@ h6 {
   font-size: 2.5rem;
   font-weight: 900;
   margin-bottom: 2rem;
+  margin-top: 2rem;
+  text-align: center;
+  display: block;
 }
 
 .about p {
